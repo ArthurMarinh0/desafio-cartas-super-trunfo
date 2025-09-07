@@ -47,7 +47,7 @@ int main(){
     printf("PIB: %.2f bilhoes de reais\n", pib1 / 1e9);    // Mostra o PIB com 2 casas decimais
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos1);
     printf("Densidade Populacional: %.2lf hab/km²\n", densidadePopu1);
-    printf("PIB per Capita: %lf reais\n", pibPerCapta1);
+    printf("PIB per Capita: R$%.2lf reais\n", pibPerCapta1);
 
     printf("\nCarta 2: \n");
     printf("Estado: %c\n", estado2);
@@ -58,7 +58,7 @@ int main(){
     printf("PIB: %.2f bilhoes de reais\n", pib2 / 1e9); 
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos2);
     printf("Densidade Populacional: %.2lf hab/km²\n", densidadePopu2);
-    printf("PIB per Capita: %lf reais", pibPerCapta2);
+    printf("PIB per Capita: R$%.2lf reais", pibPerCapta2);
 
     return 0;
 }
