@@ -46,7 +46,7 @@ int main(){
     printf("Area: %.3lf Km2\n", area1);               // Mostra a área com 3 casas decimais
     printf("PIB: %.2f bilhoes de reais\n", pib1 / 1e9);    // Mostra o PIB com 2 casas decimais
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos1);
-    printf("Densidade Populacional: %.2lf\n", densidadePopu1);
+    printf("Densidade Populacional: %.2lf hab/km²\n", densidadePopu1);
     printf("PIB per Capita: %lf reais\n", pibPerCapta1);
 
     printf("\nCarta 2: \n");
@@ -57,7 +57,7 @@ int main(){
     printf("Area: %.0lf Km2\n", area2);           // Mostra a area sem 0's a direita
     printf("PIB: %.2f bilhoes de reais\n", pib2 / 1e9); 
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos2);
-    printf("Densidade Populacional: %.2lf\n", densidadePopu2);
+    printf("Densidade Populacional: %.2lf hab/km²\n", densidadePopu2);
     printf("PIB per Capita: %lf reais", pibPerCapta2);
 
     return 0;
