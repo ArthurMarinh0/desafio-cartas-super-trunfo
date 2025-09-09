@@ -37,6 +37,7 @@ int main(){
     double pibPerCapta2 = pib2 / populacao2;
 
 
+    // Super Poder = soma de todos os atributos + inverso da densidade (quanto menor a densidade, maior o poder)
     float superPoder1 = (float)populacao1 + (float)area1 + pib1 + (float)pontosTuristicos1 + (float)pibPerCapta1 + (float)(1.0 / densidadePopu1);
     float superPoder2 = (float)populacao2 + (float)area2 + pib2 + (float)pontosTuristicos2 + (float)pibPerCapta2 + (float)(1.0 / densidadePopu2);
 
@@ -75,6 +76,8 @@ int main(){
 
     // Comparação das cartas
 
+    // Expressões relacionais → resultado será 1 (verdadeiro) ou 0 (falso)
+
     // População (maior vence)
     int carta1VencePopulacao = (populacao1 > populacao2);
     // Área (maior vence)
@@ -91,6 +94,11 @@ int main(){
     int carta1VenceSuperPoder = (superPoder1 > superPoder2);
 
     printf("\nComparacao de Cartas:\n");
+
+    
+    // Em cada printf:
+    // Primeiro %d = número da carta vencedora (1 ou 2)
+    // Segundo %d = resultado lógico da comparação (1 se Carta 1 venceu, 0 se Carta 2 venceu)
 
     // População
     printf("\nPopulacao: Carta 1 = %lu, Carta 2 = %lu", populacao1, populacao2);
