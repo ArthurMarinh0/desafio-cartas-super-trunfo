@@ -62,31 +62,38 @@ int main(){
 
     //Comparação das cartas
 
+    // Comparações
+    const char* vencedorPopulacao = (populacao1 > populacao2) ? "Carta 1" : (populacao2 > populacao1) ? "Carta 2" : "Empate";
+    const char* vencedorArea = (area1 > area2) ? "Carta 1" : (area2 > area1) ? "Carta 2" : "Empate";
+    const char* vencedorPIB = (pib1 > pib2) ? "Carta 1" : (pib2 > pib1) ? "Carta 2" : "Empate";
+    const char* vencedorPontosTuristicos = (pontosTuristicos1 > pontosTuristicos2) ? "Carta 1" : (pontosTuristicos2 > pontosTuristicos1) ? "Carta 2" : "Empate";
+    const char* vencedorDensidadePopu = (densidadePopu1 > densidadePopu2) ? "Carta 1" : (densidadePopu2 > densidadePopu1) ? "Carta 2" : "Empate";
+    const char* vencedorPIBPerCapta = (pibPerCapta1 > pibPerCapta2) ? "Carta 1" : (pibPerCapta2 > pibPerCapta1) ? "Carta 2" : "Empate";
+
     printf("\nComparacao de Cartas:\n");
-    
     // População
-    printf("Populacao: Carta 1 = %lu, Carta 2 = %lu. ", populacao1, populacao2);
-    printf("Vencedor: %s\n", (populacao1 > populacao2) ? "Carta 1" : (populacao2 > populacao1) ? "Carta 2" : "Empate");
+    printf("\nPopulacao: Carta 1 = %lu, Carta 2 = %lu. \n", populacao1, populacao2);
+    printf("Vencedor: %s\n", vencedorPopulacao);
 
     // Área
-    printf("Area: Carta 1 = %.3f, Carta 2 = %.3f. ", area1, area2);
-    printf("Vencedor: %s\n", (area1 > area2) ? "Carta 1" : (area2 > area1) ? "Carta 2" : "Empate");
+    printf("\nArea: Carta 1 = %.3f, Carta 2 = %.3f. \n", area1, area2);
+    printf("Vencedor: %s\n", vencedorArea);
 
     // PIB
-    printf("PIB: Carta 1 = %.2f, Carta 2 = %.2f. ", pib1, pib2);
-    printf("Vencedor: %s\n", (pib1 > pib2) ? "Carta 1" : (pib2 > pib1) ? "Carta 2" : "Empate");
+    printf("\nPIB: Carta 1 = %.2f, Carta 2 = %.2f. \n", pib1, pib2);
+    printf("Vencedor: %s\n", vencedorPIB);
 
     // Pontos Turísticos
-    printf("Pontos Turisticos: Carta 1 = %d, Carta 2 = %d. ", pontosTuristicos1, pontosTuristicos2);
-    printf("Vencedor: %s\n", (pontosTuristicos1 > pontosTuristicos2) ? "Carta 1" : (pontosTuristicos2 > pontosTuristicos1) ? "Carta 2" : "Empate");
+    printf("\nPontos Turisticos: Carta 1 = %d, Carta 2 = %d. \n", pontosTuristicos1, pontosTuristicos2);
+    printf("Vencedor: %s\n", vencedorPontosTuristicos);
 
     // Densidade Populacional
-    printf("Densidade Populacional: Carta 1 = %.2lf, Carta 2 = %.2lf. ", densidadePopu1, densidadePopu2);
-    printf("Vencedor: %s\n", (densidadePopu1 > densidadePopu2) ? "Carta 1" : (densidadePopu2 > densidadePopu1) ? "Carta 2" : "Empate");
+    printf("\nDensidade Populacional: Carta 1 = %.2lf, Carta 2 = %.2lf. \n", densidadePopu1, densidadePopu2);
+    printf("Vencedor: %s\n", vencedorDensidadePopu);
 
     // PIB per Capita
-    printf("PIB per Capita: Carta 1 = %.2lf, Carta 2 = %.2lf. ", pibPerCapta1, pibPerCapta2);
-    printf("Vencedor: %s\n", (pibPerCapta1 > pibPerCapta2) ? "Carta 1" : (pibPerCapta2 > pibPerCapta1) ? "Carta 2" : "Empate");
+    printf("\nPIB per Capita: Carta 1 = %.2lf, Carta 2 = %.2lf. \n", pibPerCapta1, pibPerCapta2);
+    printf("Vencedor: %s\n", vencedorPIBPerCapta);
 
 
 
