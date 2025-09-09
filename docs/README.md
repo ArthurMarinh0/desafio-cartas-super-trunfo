@@ -1,70 +1,92 @@
-# Super Trunfo – Cartas de Cidades
+# Super Trunfo – Cartas de Cidades  
 
-## Descrição do Projeto
-Este projeto é uma versão simples do jogo **Super Trunfo**, onde cada carta representa uma cidade brasileira.  
-O programa foi desenvolvido em **C** e tem como objetivo demonstrar conceitos básicos de **declaração de variáveis, armazenamento de dados e exibição de informações na tela**.
+## Descrição do Projeto  
+Este projeto é uma evolução em três etapas do jogo **Super Trunfo**, onde cada carta representa uma cidade brasileira.  
+O programa foi desenvolvido em **C** e, a cada nível, novos conceitos e funcionalidades foram adicionados:  
 
----
+- **Nível Novato** → Cadastro e exibição das cartas.  
+- **Nível Aventureiro** → Cálculo de densidade populacional e PIB per capita.  
+- **Nível Mestre** → Comparação entre cartas e cálculo do “Super Poder”.  
 
-## Atributos das Cartas
-Cada carta contém os seguintes atributos:
 
-- **Estado**: Inicial do estado.  
-- **Código da carta**: Número identificador da carta.  
-- **Nome da cidade**: Nome completo da cidade.  
-- **População**: Número de habitantes.  
-- **Área**: Extensão territorial (Km²).  
-- **PIB**: Produto Interno Bruto da cidade (em bilhões de reais).  
-- **Número de pontos turísticos**: Quantidade de atrações turísticas.
+## Etapas do Projeto  
 
----
+### Nível Novato  
+- **O que foi feito**:  
+  - Criação das cartas com atributos básicos (estado, código, cidade, população, área, PIB, pontos turísticos).  
+  - Armazenamento em variáveis simples.  
+  - Exibição organizada com `printf`.  
 
-## Como o Código Funciona
-1. **Declaração das variáveis**  
-   - As informações de cada carta são armazenadas diretamente no código, usando tipos adequados (`char`, `int`, `float`, `char[]`).
+- **Objetivo**: Aprender sobre variáveis, tipos de dados e saída formatada no C.  
 
-2. **Armazenamento das informações**  
-   - Cada carta tem suas próprias variáveis para guardar todos os dados.
-
-3. **Exibição das cartas**  
-   - O programa usa `printf` para mostrar os atributos de cada carta de forma organizada e legível.
-
----
-
-## Exemplo de Saída
-Quando o programa é executado, ele exibe algo assim:
-
+**Exemplo de saída:**  
 *** Cartas Super Trunfo ***
 
 Carta 1:
 Estado: A
-Codigo: A01
+Código: A01
 Nome da Cidade: Rio de Janeiro
-Populacao: 16055174
-Area: 1255 Km2
-PIB: 359.64 bilhoes de reais
-Numero de Pontos Turisticos: 60
+População: 16055174
+Área: 1255 Km2
+PIB: 359.64 bilhões de reais
+Número de Pontos Turísticos: 60
 
 Carta 2:
 Estado: B
-Codigo: B02
+Código: B02
 Nome da Cidade: Belo Horizonte
-Populacao: 21393441
-Area: 331 Km2
-PIB: 105.8 bilhoes de reais
-Numero de Pontos Turisticos: 35
+População: 21393441
+Área: 331 Km2
+PIB: 105.8 bilhões de reais
+Número de Pontos Turísticos: 35
 
+### Nível Aventureiro  
+- **O que foi feito**:  
+  - Inclusão do cálculo da **densidade populacional** (população ÷ área).  
+  - Inclusão do cálculo do **PIB per capita** (PIB ÷ população).  
+  - Exibição dos novos atributos junto com as cartas.  
 
----
+- **Objetivo**: Introduzir **operações matemáticas** e conversões de tipo no C.  
 
-## Objetivo do Projeto
-- Praticar o uso de **variáveis e tipos de dados** em C.  
-- Aprender a exibir informações **formatadas** com `printf`.  
-- Criar uma estrutura simples de **cartas de Super Trunfo**, focando apenas em **cadastro e exibição**.
+**Exemplo de saída:**  
+*** Cartas Super Trunfo ***
 
----
+Carta 1:
+População: 16055174
+Área: 1255 Km2
+PIB: 359.64 bilhões de reais
+Pontos Turísticos: 60
+Densidade Populacional: 12793.5 hab/km2
+PIB per Capita: 22400.6 reais
 
-## Tecnologias Utilizadas
+Carta 2:
+População: 21393441
+Área: 331 Km2
+PIB: 105.8 bilhões de reais
+Pontos Turísticos: 35
+Densidade Populacional: 64660.8 hab/km2
+PIB per Capita: 4945.8 reais
+
+### Nível Mestre  
+- **O que foi feito**:  
+  - Alteração do tipo da população para **`unsigned long int`** (para suportar números maiores).  
+  - Cálculo do **Super Poder**, que soma: população, área, PIB, pontos turísticos, PIB per capita e o inverso da densidade populacional.  
+  - Comparação **atributo por atributo** entre duas cartas (usando apenas operadores relacionais, sem `if/else`).  
+  - Exibição dos resultados das comparações (1 = Carta 1 venceu, 0 = Carta 2 venceu).  
+
+- **Objetivo**: Trabalhar **comparações lógicas, operadores relacionais e manipulação de diferentes tipos numéricos** em C.  
+
+**Exemplo de saída:**  
+Comparação de Cartas:
+
+População: Carta 1 venceu (1)
+Área: Carta 1 venceu (1)
+PIB: Carta 1 venceu (1)
+Pontos Turísticos: Carta 1 venceu (1)
+Densidade Populacional: Carta 2 venceu (0)
+PIB per Capita: Carta 1 venceu (1)
+Super Poder: Carta 1 venceu (1)
+
+## Tecnologias Utilizadas  
 - Linguagem: **C**  
 - Ferramenta de desenvolvimento: **VSCode**
-
