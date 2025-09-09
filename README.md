@@ -3,7 +3,7 @@ Desafio de programação -  Cartas Super Trunfo
 
 ## Estrutura do projeto
 - src/ → código-fonte
-- docs/ → Breve explicação do código
+- docs/ → Explicação dos códigos
 
 ##
 - Nome: Luis Arthur Silva Marinho
