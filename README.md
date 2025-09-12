@@ -2,8 +2,9 @@
 Desafio de programação -  Cartas Super Trunfo
 
 ## Estrutura do projeto
-- src/ → código-fonte
-- docs/ → Explicação dos códigos
+- Super-trunfo/ → códigos e documentação de cada tema 2 e 3.
+- niveis/ → novato ao mestre com o codigo melhorando comforme o nivel.
+- docs/ → Explicação dos códigos e da progreção deles.
 
 ##
 - Nome: Luis Arthur Silva Marinho
