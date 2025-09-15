@@ -42,7 +42,7 @@ int main(){
     printf("Escolha o atributo para comparar as cartas:\n");
     printf("1 - Populacao\n");
     printf("2 - Area (em km^2)\n");
-    printf("3 - PIB (em BRL)\n");
+    printf("3 - PIB (em USD)\n");
     printf("4 - Numero de Pontos Turisticos\n");
     printf("5 - Densidade Demografica (hab/km^2)\n");
     printf("Digite sua opcao: ");
