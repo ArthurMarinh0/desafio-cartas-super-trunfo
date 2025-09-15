@@ -1,7 +1,7 @@
-# Super Trunfo – Batalha de Países
+# Super Trunfo
 
 ## Descrição do Projeto
-Este projeto é a implementação do jogo **Super Trunfo** em etapas, desta vez com cartas representando **países**. O objetivo é aprofundar os conhecimentos em lógica de programação e interatividade com o usuário.
+Este projeto é a implementação do jogo **Super Trunfo** em etapas, desta vez com cartas representando **cidades**. O objetivo é aprofundar os conhecimentos em lógica de programação e interatividade com o usuário.
 
 O programa foi desenvolvido em **C** e, a cada nível, novos conceitos e funcionalidades são adicionados:
 
@@ -13,7 +13,7 @@ O programa foi desenvolvido em **C** e, a cada nível, novos conceitos e funcion
 
 ### Nível Novato
 -   **O que foi feito**:
-    -   Criação de duas cartas (países) com atributos definidos diretamente no código (nome, população, área, PIB, etc.).
+    -   Criação de duas cartas (cidades) com atributos definidos diretamente no código (nome, população, área, PIB, etc.).
     -   Cálculo de um atributo derivado (densidade demográfica).
     -   Implementação de uma comparação **fixa** (*hardcoded*) baseada em um único atributo (pontos turísticos).
     -   Exibição do resultado da comparação no terminal usando uma estrutura `if-else` simples.
@@ -39,8 +39,12 @@ Resultado: Carta 1 (Rio de janeiro) venceu!
 -   **Objetivo**: Aprender a capturar a entrada do usuário (`scanf`), utilizar a estrutura de controle `switch` para criar menus e construir lógicas de decisão mais complexas e flexíveis.
 
 **Exemplo de saída (se o jogador escolher a opção 1):**
-***** SUPER TRUNFO - PAÍSES ***** Escolha o atributo para comparar as cartas:
-1 - Populacao 2 - Area (em km^2) 3 - PIB (em USD) 4 - Numero de Pontos Turisticos 5 - Densidade Demografica (hab/km^2)
+***** SUPER TRUNFO ***** Escolha o atributo para comparar as cartas:
+1 - Populacao 
+2 - Area (em km^2) 
+3 - PIB (em USD) 
+4 - Numero de Pontos Turisticos 
+5 - Densidade Demografica (hab/km^2)
 Digite sua opcao: 1
 
 --- Atributo escolhido: Populacao ---
