@@ -1,7 +1,7 @@
 # Super Trunfo – Batalha de Países
 
 ## Descrição do Projeto
-Este projeto é a implementação do jogo **Super Trunfo** em etapas, desta vez com cartas representando **países**. O objetivo é aprofundar os conhecimentos em lógica de programação e interatividade com o usuário em C.
+Este projeto é a implementação do jogo **Super Trunfo** em etapas. O objetivo é aprofundar os conhecimentos em lógica de programação e interatividade com o usuário em C.
 
 O programa foi desenvolvido em **C** e, a cada nível, novos conceitos e funcionalidades são adicionados:
 
@@ -47,10 +47,10 @@ Escolha o atributo para comparar as cartas:
 Digite sua opcao: 1
 
 --- Atributo escolhido: Populacao ---
-Carta 1 (Brasil): 215300000 habitantes
-Carta 2 (Argentina): 45810000 habitantes
+Carta 1 (Rio de janeiro): 6211223 habitantes
+Carta 2 (Belo Horizonte): 2315560 habitantes
 
-Resultado: A carta 1 (Brasil) venceu!
+Resultado: A carta 1 (Rio de janeiro) venceu!
 
 
 ### Nível Mestre
