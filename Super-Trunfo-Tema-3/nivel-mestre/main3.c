@@ -109,7 +109,7 @@ int main() {
     somaCarta1 = valorAttr1_Carta1 + valorAttr2_Carta1;
     somaCarta2 = valorAttr1_Carta2 + valorAttr2_Carta2;
     
-    // --- EXIBIÇÃO CLARA DO RESULTADO ---
+    //Exibição Clara Do Resultado
     printf("\n\n======== RESULTADO DA RODADA ========\n");
     printf("Atributos escolhidos: %s e %s\n", nomeAttr1, nomeAttr2);
 
